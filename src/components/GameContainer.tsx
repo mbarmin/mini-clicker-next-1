@@ -8,13 +8,6 @@ import { useTelegram, TelegramUser } from '@/hooks/useTelegram';
 import { useState, useEffect, useCallback } from 'react'
 import styled, { keyframes } from 'styled-components'
 
-interface TelegramUser {
-  id: number
-  first_name: string
-  last_name?: string
-  username?: string
-  language_code: string
-}
 
 interface UserStats {
   userId: number
